@@ -15,4 +15,4 @@ def test_soma():
 
 def test_multiplicar_erro():
     response = client.get("/multiplicar/2/2")
-    assert response.json() == {"resultado": 5}
+    assert response.json() == {"resultado": 4}
